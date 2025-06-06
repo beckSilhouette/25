@@ -1,0 +1,25 @@
+Step-by-Step Tutorial 2: Using a Knowledge Base to Autocomplete Software Years
+
+Step 1: Maintain a List of Popular Software and Their Release Years
+Example entries:
+- Windows 95 – 1995
+- macOS Catalina – 2019
+- Python 3.0 – 2008
+
+Step 2: Build Pattern Matching Logic
+- Match the software name and version from the input.
+Example: Input: "macOS Mojave was released in ____."
+- Match "macOS Mojave" to 2018.
+
+Step 3: Autocomplete Using Lookup
+- Find the software in the list and fill the year.
+- If not found, use the closest known related version.
+
+Step 4: Handle Variants and Abbreviations
+- Recognize that "Win10" = "Windows 10", "PS CS6" = "Photoshop CS6", etc.
+
+Practice:
+Input: "Python 2.7 was released in ____."
+Output: "2010"
+
+This tutorial teaches you to use known data to fill in the year.
